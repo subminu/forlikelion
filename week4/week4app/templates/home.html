@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>hello</h1>
+        {% for blogs in blogs.all %}
+        <div class="container">
+        <h1>{{ blogs.title }}</h1>
+        <p>{{ blogs.pub_date }}</p>
+        <p>{{ blogs.body }}</p>
+        </div>
+        {% endfor %}
+    </body>
+</html>
