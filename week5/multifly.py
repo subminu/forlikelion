@@ -1,2 +1,2 @@
-def mulitfly(a,b):
+def multifly(a,b):
     print("====multifly====")
