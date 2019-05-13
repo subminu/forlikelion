@@ -1,4 +1,7 @@
-import plus, minus, multifly, divide
+from plus import plus
+from minus import minus
+from multifly import multifly
+from divide import divide
 
 a = int(input("Enter number:"))
 b = int(input("Enter number:"))
